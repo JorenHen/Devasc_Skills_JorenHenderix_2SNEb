@@ -23,4 +23,8 @@ Door het uitvoeren van `udo apt update && sudo apt upgrade` voorkomen we errors 
 
 ### Taak verifieren 
 
+![Lab 1 - Python Experiments]((https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%201%20-%20Python%20Experiments/LAB%201%20-%20Task%20Verification%201.png)
+![Lab 1 - Python Experiments]((https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%201%20-%20Python%20Experiments/LAB%201%20-%20Task%20Verification%202.png)
+![Lab 1 - Python Experiments]((https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%201%20-%20Python%20Experiments/LAB%201%20-%20Task%20Verification%203.png)
+
 
