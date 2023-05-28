@@ -49,3 +49,5 @@ Door het uitvoeren van `udo apt update && sudo apt upgrade` voorkomen we errors 
 
 ### Task verifieren
 
+![Lab 1 - Python Experiments](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%201%20-%20Python%20Experiments/LAB%201%20-%20Task%20Verification%204.png)
+
