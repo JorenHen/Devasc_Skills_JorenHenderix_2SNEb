@@ -47,9 +47,13 @@ Door het uitvoeren van `udo apt update && sudo apt upgrade` voorkomen we errors 
 - Module Folium niet gevonden: `pip3 install folium`
 - Module Geopy niet govonden: `pip3 install geopy`
 
-### Task verifieren
+### Taak verifieren
 
 ![Lab 1 - Python Experiments](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%201%20-%20Python%20Experiments/LAB%201%20-%20Task%20Verification%204.png)
+
+
+<br></br>
+
 
 ## 1.3 Install different tools/packages on Windows OS (deep dive exercise) ++
 
@@ -75,10 +79,50 @@ Als Jupyter Notebook een error geeft tijdens het installeren probeer
 
 En daarna Jupyter opnieuw proberen te installeren 
 
-### Task verifieren
+Als Jupyter nogsteeds niet werkt:
+
+-Open Jupyter Notebook met dit commando: `python -m notebook`
+
+### Taak verifieren
 
 ![Lab 1 - Python Experiments](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%201%20-%20Python%20Experiments/LAB%201%20-%20Task%20Verification%205.png)
 ![Lab 1 - Python Experiments](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%201%20-%20Python%20Experiments/LAB%201%20-%20Task%20Verification%206.png)
 ![Lab 1 - Python Experiments](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%201%20-%20Python%20Experiments/LAB%201%20-%20Task%20Verification%207.png)
 ![Lab 1 - Python Experiments](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%201%20-%20Python%20Experiments/LAB%201%20-%20Task%20Verification%208.png)
 
+
+<br></br>
+
+
+## 1.4 Install different tools/packages on Ubuntu 22.04.01 LTS (deep dive exercise) ++
+
+- Python 3.8 and PIP
+- Visual Studio Code
+- Jupyter Notebook
+- Python IDLE
+
+### Taak voorbereiding en implementatie
+
+- Installeer Ubuntu 22.04.1 ISO via: https://old-releases.ubuntu.com/releases/22.04.1/
+- Installeer de VM
+- 
+1. Update en upgrade apt om errors te voorkomen `sudo apt update` `sudo apt upgrade`
+2. installeer Snap voor visual studio code `sudo apt install snapd` 
+- Installeer Visiual Studio Code `Sudo snap install --classic code`
+3. installeer Python en pip `sudo apt intall python3` `sudo apt install python3-pip`
+4. Installeer jupyter `sudo apt install jupyter`
+5. installeer IDLE `sudo apt install idle`
+
+### Taak troubleshooting
+
+### Taak verifieren
+
+![Lab 1 - Python Experiments](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%201%20-%20Python%20Experiments/LAB%201%20-%20Task%20Verification%209.png)
+![Lab 1 - Python Experiments](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%201%20-%20Python%20Experiments/LAB%201%20-%20Task%20Verification%2010.png)
+![Lab 1 - Python Experiments](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%201%20-%20Python%20Experiments/LAB%201%20-%20Task%20Verification%2011.png)
+
+
+<br></br>
+
+
+#Task 2
