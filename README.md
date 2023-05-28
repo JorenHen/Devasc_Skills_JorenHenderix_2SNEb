@@ -37,7 +37,7 @@ Door het uitvoeren van `udo apt update && sudo apt upgrade` voorkomen we errors 
 - geopy-geocoders_location.py
 - location.py
 
-### Taak voorbereiding
+### Taak voorbereiding en implementatie
 
 1. Repository kopieren: `git clone https://github.com/wleppens/PythonExperiments`
 2. Scripts uitvoeren: `python3 <script>.py`
@@ -50,4 +50,35 @@ Door het uitvoeren van `udo apt update && sudo apt upgrade` voorkomen we errors 
 ### Task verifieren
 
 ![Lab 1 - Python Experiments](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%201%20-%20Python%20Experiments/LAB%201%20-%20Task%20Verification%204.png)
+
+## 1.3 Install different tools/packages on Windows OS (deep dive exercise) ++
+
+- Python 3.8 and PIP
+- Visual Studio Code
+- Jupyter Notebook
+- Python IDLE
+
+Investigate the compatibility of the tools with Windows OS and explain briefly if necessary.
+
+### Taak voorbereiding en implementatie
+
+1. Download Python met de installer voor Windows (x86 executable installer) van: https://python.org
+2. Dowload Visual Studio 2022: https://visualstudio.microsoft.com/downloads/
+3. Download Jupyter: `pip install jupyter`
+4. download IDLE: `pip install idle`
+
+### Taak troubleshooting
+
+Als Jupyter Notebook een error geeft tijdens het installeren probeer
+
+- Pip te upgraden: `python -m pip install --upgrade pip`
+
+En daarna Jupyter opnieuw proberen te installeren 
+
+### Task verifieren
+
+![Lab 1 - Python Experiments](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%201%20-%20Python%20Experiments/LAB%201%20-%20Task%20Verification%205png)
+![Lab 1 - Python Experiments](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%201%20-%20Python%20Experiments/LAB%201%20-%20Task%20Verification%206png)
+![Lab 1 - Python Experiments](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%201%20-%20Python%20Experiments/LAB%201%20-%20Task%20Verification%207png)
+![Lab 1 - Python Experiments](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%201%20-%20Python%20Experiments/LAB%201%20-%20Task%20Verification%208png)
 
