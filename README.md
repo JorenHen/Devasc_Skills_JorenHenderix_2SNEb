@@ -48,3 +48,4 @@ Door het uitvoeren van `udo apt update && sudo apt upgrade` voorkomen we errors 
 - Module Geopy niet govonden: `pip3 install geopy`
 
 ### Task verifieren
+
