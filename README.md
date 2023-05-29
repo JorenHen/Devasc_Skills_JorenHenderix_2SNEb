@@ -143,11 +143,40 @@ Als Jupyter nogsteeds niet werkt:
 1. Surfen naar library.demo.local
 2. Naar de "Our Books" tab gaan
 3. Op de knop `Click here for API docs` drukken
-4. Ga dan naar `Get`\Books
+4. Ga dan naar Get\Books
 5. Daarna "Try it out"
 6. Op de knop `Execute` drukken
 
 #### API call via curl en API key
+
+- API call met curl doen we aan de hand van dit commando: 
+`curl -X get "http://library.demo.local/api/v1/books?includeISBN=true" -H accept: application/json`
+
+#### POST call voor API key
+
+1. Surfen naar library.demo.local
+2. Naar de "Our Books" tab gaan
+3. Op de knop `Click here for API docs` drukken
+4. Ga dan naar POST\LoginViaBasic
+5. Daarna "Try it out"
+6. Op de knop `Execute` drukken
+
+#### Delete book using curl and API key
+
+`curl -X DELETE "http://library.demo.local/api/v1/books/4" -H "accept: application/json" -H "X-API-KEY:cisco|GlKfOH9DXGl3CZHtyQLh4E25lavAw_EB0W5WrxfKBBk"`
+
+### Taak troubleshooting
+
+Ik heb geen problemen gehad tijdens deze task
+Maar moest u problemen krijgen probeer dan 
+
+- `sudo apt update`
+- `sudo apt upgrade`
+- `sudo reboot now`
+
+### Taak verifieren 
+
+
 
 
 
