@@ -132,5 +132,23 @@ Als Jupyter nogsteeds niet werkt:
 <br></br>
 
 
-# LAB 2 - 
+# LAB 2 - Explore Rest APIs With API Simulator And Postman.
+
+## Part 1: Explore API Documentation Using the API Simulator
+
+### Taak voorbereiding en implementatie
+
+### API call via de GUI
+
+1. Surfen naar library.demo.local
+2. Naar de "Our Books" tab gaan
+3. Op de knop `Click here for API docs` drukken
+4. Ga dan naar `Get`\Books
+5. Daarna "Try it out"
+6. Op de knop `Execute` drukken
+
+### API call via curl en API key
+
+
+
 
