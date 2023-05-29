@@ -138,7 +138,7 @@ Als Jupyter nogsteeds niet werkt:
 
 ### Taak voorbereiding en implementatie
 
-### API call via de GUI
+#### API call via de GUI
 
 1. Surfen naar library.demo.local
 2. Naar de "Our Books" tab gaan
@@ -147,7 +147,7 @@ Als Jupyter nogsteeds niet werkt:
 5. Daarna "Try it out"
 6. Op de knop `Execute` drukken
 
-### API call via curl en API key
+#### API call via curl en API key
 
 
 
