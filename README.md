@@ -203,6 +203,7 @@ API call [DELETE met curl](https://github.com/JorenHen/Devasc_Skills_JH/blob/mas
 9. Bij Authorization API Key selecteren
 10. Key values ingeven `X-API-KEY` `cisco|0DOEZlctzTiAKVOG5_z2Io1Be3ugxk84UBCsn6coPWg`
 11. Op send drukken
+12. Overige GET en POSTs uitvoeren
 
 ### Taak troubleshooting
 
@@ -214,19 +215,56 @@ Moest u wel problemen hebben:
 
 ### Taak verifieren 
 
-We krijgen de token binnen in de body van de request [verificatie]()
+We krijgen de token binnen in de body van de request [verificatie](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%202%20-%20Explore%20rest%20APIs%20with%20API-simulator%20and%20postman/Task%202/POST%20request%20succes.png)
 
-[Post naar /books via postman]()
+[Post naar /books via postman](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%202%20-%20Explore%20rest%20APIs%20with%20API-simulator%20and%20postman/Task%202/POST%20naar%20books.png)
 
 ## Part 3: Use Python to Add 100 Books to the API Simulator
 
 ### Taak voorbereiding en implementatie
 
+1. DEVASCVM opstarten
+2. Visual Studio Code openen
+3. Script maken via de LAB van NetAcad Devasc
 
+Het script is opgedeeld in verschillende delen op Devasc
+
+- Faker
+```
+{
+ python3
+ from faker import Faker
+ fake = Faker()
+ print('My name is {}.'.format(fake.name()))
+ print('My name is {0} and i wrote {1} ({2})'.format(fake.name(),fake.catch_phrase(),fake.isbn13()))
+}
+``` 
+
+- For loop
+```
+{
+ for i in range (10):
+     print(fake.name())
+}
+```
+
+Alle delen van het script zijn samengevoegd in het [script]()
 
 ### Taak troubleshooting
 
+Ik had geen problemen tijdens deze taak.
+Moest u wel problemen hebben:
 
+- Herstart Visual Studio Code
+- `sudo apt update`
+- `sudo apt upgrade` 
+- Herstart DEVASC Machine
 
 ### Taak verifieren 
+
+[Script]()
+
+[Uitvoer]()
+
+
 
