@@ -219,6 +219,8 @@ We krijgen de token binnen in de body van de request [verificatie](https://githu
 
 [Post naar /books via postman](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%202%20-%20Explore%20rest%20APIs%20with%20API-simulator%20and%20postman/Task%202/POST%20naar%20books.png)
 
+[Post uitvoer](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%202%20-%20Explore%20rest%20APIs%20with%20API-simulator%20and%20postman/Task%202/POST%20succes.png)
+
 ## Part 3: Use Python to Add 100 Books to the API Simulator
 
 ### Taak voorbereiding en implementatie
@@ -248,7 +250,7 @@ Het script is opgedeeld in verschillende delen op Devasc
 }
 ```
 
-Alle delen van het script zijn samengevoegd in het [script]()
+Alle delen van het script zijn samengevoegd in het [script](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%202%20-%20Explore%20rest%20APIs%20with%20API-simulator%20and%20postman/Task%203/Add100RandomBooks.py)
 
 ### Taak troubleshooting
 
@@ -262,9 +264,9 @@ Moest u wel problemen hebben:
 
 ### Taak verifieren 
 
-[Script]()
+[Script](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%202%20-%20Explore%20rest%20APIs%20with%20API-simulator%20and%20postman/Task%203/Add100RandomBooks.py)
 
-[Uitvoer]()
+[Uitvoer](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%202%20-%20Explore%20rest%20APIs%20with%20API-simulator%20and%20postman/Task%203/Script%20uitvoer.png)
 
 
 
