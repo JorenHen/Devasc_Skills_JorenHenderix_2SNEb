@@ -1,4 +1,4 @@
-## ! Disclaimer: allen screenshots zijn in de READme gezet aan de hand van linken en geen copy paste!
+## ! Disclaimer: allen screenshots en scripts zijn in de READme gezet aan de hand van linken en geen copy paste!
 
 # LAB 1 - Python experiments
 
