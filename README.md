@@ -269,4 +269,60 @@ Moest u wel problemen hebben:
 [Uitvoer](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%202%20-%20Explore%20rest%20APIs%20with%20API-simulator%20and%20postman/Task%203/Script%20uitvoer.png)
 
 
+<br></br>
+
+
+# Lab 3 - Python Review - Development tools and Classes
+## Part 1: Python Programming Review
+
+### Taak voorbereiding en implementatie
+
+
+
+### Taak troubleshooting
+
+
+
+### Taak verifieren 
+
+placeholder
+
+
+<br></br>
+
+
+## Part 2: Explore Python Development Tools
+
+### Taak voorbereiding en implementatie
+
+
+
+### Taak troubleshooting
+
+
+
+### Taak verifieren 
+
+placeholder
+
+
+<br></br>
+
+
+## Part 3: Explore Python Classes
+
+### Taak voorbereiding en implementatie
+
+
+
+### Taak troubleshooting
+
+
+
+### Taak verifieren 
+
+placeholder
+
+
+<br></br>
 
