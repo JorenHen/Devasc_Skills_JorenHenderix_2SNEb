@@ -154,12 +154,13 @@ Als Jupyter nogsteeds niet werkt:
 
 #### POST call voor API key
 
-1. Surfen naar library.demo.local
-2. Naar de "Our Books" tab gaan
-3. Op de knop `Click here for API docs` drukken
-4. Ga dan naar POST\LoginViaBasic
-5. Daarna "Try it out"
-6. Op de knop `Execute` drukken
+1. DEVASCVM opstarten
+2. Surfen naar library.demo.local
+3. Naar de "Our Books" tab gaan
+4. Op de knop `Click here for API docs` drukken
+5. Ga dan naar POST\LoginViaBasic
+6. Daarna "Try it out"
+7. Op de knop `Execute` drukken
 
 #### Delete book using curl and API key
 
@@ -187,6 +188,45 @@ API Call cia [Curl](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab
 
 API call [DELETE met curl](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%202%20-%20Explore%20rest%20APIs%20with%20API-simulator%20and%20postman/Task%201/CURL%20delete%20met%20API%20key.png)
 
+## Part 2: Use Postman to Make API Calls to the API Simulator
+
+### Taak voorbereiding en implementatie
+
+1. DEVASCVM opstarten
+2. Open Postman op het bureublad van de DEVASCVM
+3. POST request maken naar `http://library.demo.local/api/v1/LoginViaBasic`
+4. Autorization tab openen
+5. Basic Auth selecteren
+6. Username en password invullen `cisco` `Cisco123!`
+7. Op send drukken
+8. POST request maken naar `http://library.demo.local/api/v1/books`
+9. Bij Authorization API Key selecteren
+10. Key values ingeven `X-API-KEY` `cisco|0DOEZlctzTiAKVOG5_z2Io1Be3ugxk84UBCsn6coPWg`
+11. Op send drukken
+
+### Taak troubleshooting
+
+Ik had geen problemen tijdens deze taak.
+Moest u wel problemen hebben:
+
+- Herstart Postman 
+- Herstart DEVASC Machine
+
+### Taak verifieren 
+
+We krijgen de token binnen in de body van de request [verificatie]()
+
+[Post naar /books via postman]()
+
+## Part 3: Use Python to Add 100 Books to the API Simulator
+
+### Taak voorbereiding en implementatie
 
 
+
+### Taak troubleshooting
+
+
+
+### Taak verifieren 
 
