@@ -435,7 +435,7 @@ Bestand.close();
 1. `cd labs/devnet-src/python/`
 2. `python3 -m venv devfun`
 
-[Stap 1 Screenshot]()
+[Stap 1 Screenshot](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%203%20-%20Python%20revieuw%20-%20Development%20tools%20and%20classes/Task%202/Stap%201.png)
 
 #### Stap2: Activeren en testen
 
@@ -445,15 +445,15 @@ Bestand.close();
 4. `pip3 freeze`
 5. `deactivate`
 
-[Stap 2 Screenshot]()
+[Stap 2 Screenshot](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%203%20-%20Python%20revieuw%20-%20Development%20tools%20and%20classes/Task%202/Stap%202.png)
 
 #### Stap3: De huidige geinstalleerde pakketen controlleren
 
 1. `python3 -m pip freeze`
 2. `python3 -m pip freeze | grep requests`
 
-[Stap 3 Screenshot]()
-[Stap 3 Screenshot]()
+[Stap 3 Screenshot](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%203%20-%20Python%20revieuw%20-%20Development%20tools%20and%20classes/Task%202/Stap%203.1.png)
+[Stap 3 Screenshot](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%203%20-%20Python%20revieuw%20-%20Development%20tools%20and%20classes/Task%202/Stap%203.2.png)
 
 ### Virtuele omgeving delen
 
@@ -481,15 +481,17 @@ of
 
 Virtuele omgeving maken:
 
-[Screenshot stap 1]()
+[Screenshot stap 1](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%203%20-%20Python%20revieuw%20-%20Development%20tools%20and%20classes/Task%202/Stap%201.png)
 
-[Screenshot stap 2]()
+[Screenshot stap 2](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%203%20-%20Python%20revieuw%20-%20Development%20tools%20and%20classes/Task%202/Stap%202.png)
 
-[Screenshot stap 3]()
+[Screenshot stap 3](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%203%20-%20Python%20revieuw%20-%20Development%20tools%20and%20classes/Task%202/Stap%203.1.png)
+
+[Screenshot stap 3](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%203%20-%20Python%20revieuw%20-%20Development%20tools%20and%20classes/Task%202/Stap%203.2.png)
 
 Virtuele omgeving delen:
 
-[Screenshot]()
+[Screenshot](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%203%20-%20Python%20revieuw%20-%20Development%20tools%20and%20classes/Task%202/Omgeving%20delen.png)
 
 
 <br></br>
