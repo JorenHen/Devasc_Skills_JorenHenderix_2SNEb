@@ -1,0 +1,148 @@
+Building configuration...
+
+Current configuration : 2410 bytes
+!
+! Last configuration change at 12:17:23 UTC Tue Apr 25 2023
+!
+version 15.4
+service timestamps debug datetime msec
+service timestamps log datetime msec
+service password-encryption
+!
+hostname LAB-RA08-RT03
+!
+boot-start-marker
+boot-end-marker
+!
+!
+security passwords min-length 12
+enable secret 5 $1$/2yD$P5UXIbbnr/eP9/hLat9LP0
+!
+no aaa new-model
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+ip dhcp excluded-address 172.16.8.1
+!
+ip dhcp pool USERS
+ network 172.16.8.0 255.255.255.240
+ default-router 172.16.8.1
+!
+!
+!
+no ip domain lookup
+ip domain name pxl.be
+ip cef
+no ipv6 cef
+multilink bundle-name authenticated
+!
+cts logging verbose
+!
+!
+license udi pid CISCO1941/K9 sn FCZ2137B0GZ
+!
+!
+username admin password 7 096D4A04100B1E011F1E053E24367961666C
+!
+redundancy
+!
+!
+ip tftp source-interface GigabitEthernet 0/0.10
+ip ssh version 2
+!
+!
+!
+!
+interface Embedded-Service-Engine0/0
+ no ip address
+ shutdown
+!
+interface GigabitEthernet0/0
+ no ip address
+ duplex auto
+ speed auto
+!
+interface GigabitEthernet0/0.10
+ description Managemnt vlan subinterface
+ encapsulation dot1Q 10
+ ip address 172.16.8.4 255.255.255.240
+ standby version 2
+ standby 10 ip 172.16.8.1
+ standby 10 priority 150
+!
+interface GigabitEthernet0/0.40
+ description Data vlan subinterface
+ encapsulation dot1Q 40
+ ip address 172.16.8.52 255.255.255.240
+ standby version 2
+ standby 40 ip 172.168.8.49
+ standby 40 priority 150
+!
+interface GigabitEthernet0/1
+ ip address 10.199.66.108 255.255.255.224
+ duplex auto
+ speed auto
+!
+interface Serial0/1/0
+ no ip address
+ shutdown
+ clock rate 2000000
+!
+interface Serial0/1/1
+ no ip address
+ shutdown
+ clock rate 2000000
+!
+router ospf 10
+ router-id 172.168.8.1
+ passive-interface GigabitEthernet0/0
+ network 10.199.64.0 0.0.0.31 area 0
+ network 10.199.64.128 0.0.0.31 area 0
+ network 10.199.66.64 0.0.0.31 area 0
+ network 10.199.66.96 0.0.0.31 area 0
+ network 172.16.8.0 0.0.0.15 area 0
+ network 172.16.8.48 0.0.0.15 area 0
+ network 172.168.8.0 0.0.0.15 area 0
+ network 172.168.8.48 0.0.0.15 area 0
+!
+ip forward-protocol nd
+!
+no ip http server
+no ip http secure-server
+!
+!
+!
+!
+!
+control-plane
+!
+!
+banner motd ^Cauthorized acces only!^C
+!
+line con 0
+ password 7 0227005602085E731F00
+ login
+line aux 0
+line 2
+ no activation-character
+ no exec
+ transport preferred none
+ transport output pad telnet rlogin lapb-ta mop udptn v120 ssh
+ stopbits 1
+line vty 0 4
+ exec-timeout 1 30
+ password 7 03255F060F01701E1D47
+ login local
+ transport input ssh
+!
+scheduler allocate 20000 1000
+!
+end
