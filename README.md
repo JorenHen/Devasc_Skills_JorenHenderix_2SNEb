@@ -565,3 +565,60 @@ of
 
 <br></br>
 
+
+# Lab 4 - Network infrastructure and torubleshooting
+
+- Console kabel
+- Cisco Switch
+- Cisco Router
+- UTP kabels
+- Voeding kabels
+
+## Part 1: Network Infrastructure
+
+### Tak voorbereiding en implementatie
+
+Router instellen:
+
+- VTY en Console Line instellen
+- Poorten en subinterfaces instellen
+- OSPF instellen
+- DHCP opzetten
+- Secutiry toepassen
+- Basis configuratie
+- Domein aanmaken
+- RSA key genereren
+- SSH versie 2 aanzetten
+
+Switch insstellen:
+
+- Basis config
+- Poorten instellen
+- VLANs instellen 
+- Security toepassen
+- VTY en Console Line instellen
+
+IP plan
+ 	| Device | Interface | VLAN | IP |
+| LAB-RACK08-R03 | G0/0.10 | 10 | 172.16.8.4 |
+| LAB-RACK08-R03 | G0/0.40 | 40 | 172.16.8.52 |
+| LAB-RACK08-R03 | G0/0 |    |    | 
+| LAB-RACK08-R03 | G0/1 |    | 10.199.66.108 | 
+| LAB-RACK08-SW03 | VLAN10 |  10  | 172.16.8.5 | 
+| LAB-RACK08-SW03 | VLAN40 |  40  | 172.16.8.5 | 
+
+### Taak troubleshooten
+
+- Tftp uitgaande poort aanpassen op de router `ip tftp source-interface GigabitEthernet 0/0.10`
+- SSH versie 2 gebruiken en hiervoor een nieuwe rsa key aanmaken `crypto key generate rsa``1028` `ip ssh version 2`
+
+### Taak verificatie
+
+Internet connectiviteit werkt
+TFTP naar de server werkte op de switch en router (na het aanpassen van de tftp interface)
+
+[Configuratie Switch]()
+
+[Configuratie Router]()
+
+[Netwerk tekening]()
