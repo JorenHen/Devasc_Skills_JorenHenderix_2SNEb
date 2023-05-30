@@ -311,16 +311,16 @@ Moest u wel problemen hebben:
 
 ### Taak verifieren 
 
-Script 1: [Hello World]()
+Script 1: [Hello World](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%203%20-%20Python%20revieuw%20-%20Development%20tools%20and%20classes/Task%201/HelloWorld.py)
 
 ```
 {
 print("Hello World!");
 }
 ```
-[uitvoer]()
+[uitvoer](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%203%20-%20Python%20revieuw%20-%20Development%20tools%20and%20classes/Task%201/LAB3%20Task1%20Screenshots/HelloWorldUitvoer.png)
 
-Script 2: [VLAN]()
+Script 2: [VLAN](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%203%20-%20Python%20revieuw%20-%20Development%20tools%20and%20classes/Task%201/VLAN.py)
 
 ```
 {
@@ -334,9 +334,9 @@ else:
     print("De native en data VLANs zijn verschillend.");
 }
 ```
-[uitvoer]()
+[uitvoer](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%203%20-%20Python%20revieuw%20-%20Development%20tools%20and%20classes/Task%201/LAB3%20Task1%20Screenshots/VLANuitvoer.png)
 
-Script 3: [Persoonlijk]()
+Script 3: [Persoonlijk](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%203%20-%20Python%20revieuw%20-%20Development%20tools%20and%20classes/Task%201/Persoonlijk.py)
 
 ```
 {
@@ -347,9 +347,9 @@ Leeftijd = input("Hoe oud ben jij? ");
 print("Hallo " + Naam + Achternaam + "! U woont in " + Locatie + " en u bent " + Leeftijd + " jaar oud");
 }
 ```
-[uitvoer]()
+[uitvoer](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%203%20-%20Python%20revieuw%20-%20Development%20tools%20and%20classes/Task%201/LAB3%20Task1%20Screenshots/PersoonlijkUitvoer.png)
 
-Script 4: [Router]()
+Script 4: [Router](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%203%20-%20Python%20revieuw%20-%20Development%20tools%20and%20classes/Task%201/Router.py)
 
 ```
 {
@@ -358,9 +358,9 @@ for Device in Routers:
     print(Device);
 }
 ```
-[uitvoer]()
+[uitvoer](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%203%20-%20Python%20revieuw%20-%20Development%20tools%20and%20classes/Task%201/LAB3%20Task1%20Screenshots/RouterUitvoer.png)
 
-Script 5: [TellenTot]()
+Script 5: [TellenTot](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%203%20-%20Python%20revieuw%20-%20Development%20tools%20and%20classes/Task%201/TellenTot.py)
 
 ```
 {
@@ -372,9 +372,9 @@ while Beginwaarde <= Eindgetal:
     Beginwaarde = Beginwaarde + 1;
 }
 ```
-[uitvoer]()
+[uitvoer](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%203%20-%20Python%20revieuw%20-%20Development%20tools%20and%20classes/Task%201/LAB3%20Task1%20Screenshots/TellenTotUitvoer.png)
 
-Script 6: [IPV4 ACL]()
+Script 6: [IPV4 ACL](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%203%20-%20Python%20revieuw%20-%20Development%20tools%20and%20classes/Task%201/IPV4%20ACL.py)
 
 ```
 {
@@ -387,9 +387,9 @@ else:
     print("Dis is geen standard of extended IPv4 ACL.");
 }
 ```
-[uitvoer]()
+[uitvoer](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%203%20-%20Python%20revieuw%20-%20Development%20tools%20and%20classes/Task%201/LAB3%20Task1%20Screenshots/IPV4ACLuitvoer.png)
 
-Script 7: [Bestand]()
+Script 7: [Bestand](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%203%20-%20Python%20revieuw%20-%20Development%20tools%20and%20classes/Task%201/Bestand.py)
 
 ```
 {
@@ -399,7 +399,7 @@ for item in Bestand:
 Bestand.close();
 }
 ```
-[uitvoer]()
+[uitvoer](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%203%20-%20Python%20revieuw%20-%20Development%20tools%20and%20classes/Task%201/LAB3%20Task1%20Screenshots/BestandUitvoer.png)
 
 
 <br></br>
