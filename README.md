@@ -511,7 +511,7 @@ Virtuele omgeving delen:
 1. DEVASCVM opstarten
 2. Visual Studio Code opstarten
 
-#### Functie schrijven: [Script1]()
+#### Functie schrijven: [Script1](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%203%20-%20Python%20revieuw%20-%20Development%20tools%20and%20classes/Task%203/Functie.py)
 
 ```
 {
@@ -523,7 +523,7 @@ myCity("Salzburg");
 }
 ```
 
-#### Class schrijven: [Script2]()
+#### Class schrijven: [Script2](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%203%20-%20Python%20revieuw%20-%20Development%20tools%20and%20classes/Task%203/Class.py)
 
 
 ```
@@ -558,9 +558,9 @@ of
 
 ### Taak verifieren 
 
-[Screenshot uitvoer eerste script]()
+[Screenshot uitvoer eerste script](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%203%20-%20Python%20revieuw%20-%20Development%20tools%20and%20classes/Task%203/LAB3%20Task3%20Screenshots/FunctieUitvoer.png)
 
-[Screenshot uitvoer tweede script]()
+[Screenshot uitvoer tweede script](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%203%20-%20Python%20revieuw%20-%20Development%20tools%20and%20classes/Task%203/LAB3%20Task3%20Screenshots/ClassUitvoer.png)
 
 
 <br></br>
