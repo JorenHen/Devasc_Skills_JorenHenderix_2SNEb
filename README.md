@@ -618,8 +618,43 @@ IP plan
 Internet connectiviteit werkt
 TFTP naar de server werkte op de switch en router (na het aanpassen van de tftp interface)
 
-[Configuratie Switch]()
+[Configuratie Switch](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%204%20-%20Network%20infrastructure%20and%20troubleshooting/Config_Switch.txt)
 
-[Configuratie Router]()
+[Configuratie Router](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%204%20-%20Network%20infrastructure%20and%20troubleshooting/Config_Router.txt)
 
-[Netwerk tekening]()
+[Netwerk tekening](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%204%20-%20Network%20infrastructure%20and%20troubleshooting/Netwerktekening.png)
+
+
+<br></br>
+
+
+## Part 2: Network Troubleshooting
+
+- Console kabel
+- Cisco Switch
+- Cisco Router
+- UTP kabels
+- Voeding kabels
+
+### Taak voorbereiding en implementatie
+
+- Router instellen (Zie part 1)
+- Switch instellen (Zie part 1)
+
+### Taak troubleshooting
+
+- Tftp uitgaande poort aanpassen op de router `ip tftp source-interface GigabitEthernet 0/0.10`
+- SSH versie 2 gebruiken en hiervoor een nieuwe rsa key aanmaken `crypto key generate rsa``1028` `ip ssh version 2`
+- Default route instellen op router zodat er naar de TFTP server connectie kan gemaakt worden
+
+### Taak verifieren
+
+- Backup van switch en router naar tftp serverm maken
+- Backup terughalen van tftp server
+- Vanaf laptop SSH verbinding maken met de switch en router
+
+
+<br></br>
+
+
+# Lab 5 - 
