@@ -576,7 +576,7 @@ of
 
 ## Part 1: Network Infrastructure
 
-### Tak voorbereiding en implementatie
+### Taak voorbereiding en implementatie
 
 Router instellen:
 
