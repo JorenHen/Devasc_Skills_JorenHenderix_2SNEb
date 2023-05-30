@@ -599,13 +599,14 @@ Switch insstellen:
 - VTY en Console Line instellen
 
 IP plan
- 	| Device | Interface | VLAN | IP |
-| LAB-RACK08-R03 | G0/0.10 | 10 | 172.16.8.4 |
-| LAB-RACK08-R03 | G0/0.40 | 40 | 172.16.8.52 |
-| LAB-RACK08-R03 | G0/0 |    |    | 
-| LAB-RACK08-R03 | G0/1 |    | 10.199.66.108 | 
-| LAB-RACK08-SW03 | VLAN10 |  10  | 172.16.8.5 | 
-| LAB-RACK08-SW03 | VLAN40 |  40  | 172.16.8.5 | 
+| Device          | Interface | VLAN | IP            |
+| --------------- | --------- | ---- | ------------- |
+| LAB-RACK08-R03  | G0/0.10   | 10   | 172.16.8.4    |
+| LAB-RACK08-R03  | G0/0.40   | 40   | 172.16.8.52   |
+| LAB-RACK08-R03  | G0/0      |      |               | 
+| LAB-RACK08-R03  | G0/1      |      | 10.199.66.108 | 
+| LAB-RACK08-SW03 | VLAN10    |  10  | 172.16.8.5    | 
+| LAB-RACK08-SW03 | VLAN40    |  40  | 172.16.8.5    | 
 
 ### Taak troubleshooten
 
