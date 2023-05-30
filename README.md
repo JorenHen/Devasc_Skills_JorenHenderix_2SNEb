@@ -311,7 +311,9 @@ Ik heb geen problemen ervaren. Moest u wel problemen ervaren probeer dan:
 - `sudo apt update`
 - `sudo apt upgrade`
 - Visual Studio Code herstarten
-of
+
+Of
+
 - `sudo reboow now`
 
 ### Taak verifieren 
@@ -418,17 +420,76 @@ Bestand.close();
 
 ## Part 2: Explore Python Development Tools
 
+- DEVASCVM
+- Python3
+
 ### Taak voorbereiding en implementatie
 
+- Nakijken op welke python versie we zitten `python3 -V`
+- Python3 directory achterhalen `which python3`
 
+### Virtuele omgeving
+
+#### Stap1: Python3 virtuele omgeving maken
+
+1. `cd labs/devnet-src/python/`
+2. `python3 -m venv devfun`
+
+[Stap 1 Screenshot]()
+
+#### Stap2: Activeren en testen
+
+1. `source devfun/bin/activate`
+2. `pip3 freeze`
+3. `pip3 install requests`
+4. `pip3 freeze`
+5. `deactivate`
+
+[Stap 2 Screenshot]()
+
+#### Stap3: De huidige geinstalleerde pakketen controlleren
+
+1. `python3 -m pip freeze`
+2. `python3 -m pip freeze | grep requests`
+
+[Stap 3 Screenshot]()
+[Stap 3 Screenshot]()
+
+### Virtuele omgeving delen
+
+1. Virtuele omgeving heractiveren `source devfun/bin/activate`
+2. Pip3 uitput wegschrijven naar bestand `pip3 freeze > requirements.txt`
+3. `deactivate`
+4. `ls`
+5. Nieuwe virtuele omgeving maken `python3 -m venv devnew`
+6. Pip3 gebruiken om de zelfde requirements te downloaden `pip3 install -r requirements.txt`
+7. `pip3 freeze`
+8. `deactivate`
 
 ### Taak troubleshooting
 
+Ik heb geen problemen gehad met deze taak
 
+Moest u wel problemen hebben probeer dan:
+- `sudo apt update`
+- `sudo apt upgrade`
+
+of
+- `sudo reboot now`
 
 ### Taak verifieren 
 
-placeholder
+Virtuele omgeving maken:
+
+[Screenshot stap 1]()
+
+[Screenshot stap 2]()
+
+[Screenshot stap 3]()
+
+Virtuele omgeving delen:
+
+[Screenshot]()
 
 
 <br></br>
