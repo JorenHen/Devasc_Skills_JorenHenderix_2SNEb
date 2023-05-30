@@ -422,6 +422,9 @@ Bestand.close();
 
 - DEVASCVM
 - Python3
+- Netacad
+- pip
+- pip3
 
 ### Taak voorbereiding en implementatie
 
@@ -499,17 +502,65 @@ Virtuele omgeving delen:
 
 ## Part 3: Explore Python Classes
 
+- DEVASCVM
+- Visual Studio Code
+- Netacad
+
 ### Taak voorbereiding en implementatie
 
+1. DEVASCVM opstarten
+2. Visual Studio Code opstarten
 
+#### Functie schrijven: [Script1]()
+
+```
+{
+def myCity(city):
+    print("I live in " + city + ".");
+myCity("Austin");
+myCity("Tokyo");
+myCity("Salzburg");
+}
+```
+
+#### Class schrijven: [Script2]()
+
+
+```
+{
+class Location:
+    def __init__(self, name, country):
+        self.name = name;
+        self.country = country;
+    def myLocation(self) :
+        print("Hi, mijn naam is " + self.name + " en ik woon in " + self.country + ".");
+Locatie = Location("Tomas", "Portugal");
+Locatie.myLocation();
+Locatie2 = Location("Ying", "China");
+Locatie3 = Location("Amare", "Kenya");
+Locatie2.myLocation();
+Locatie3.myLocation();
+JouwLocatie = Location("Your_Name", "Your_Country");
+JouwLocatie.myLocation();
+}
+```
 
 ### Taak troubleshooting
 
+Ik heb geen problemen gehad met deze taak
 
+Moest u wel problemen hebben probeer dan:
+- `sudo apt update`
+- `sudo apt upgrade`
+
+of
+- `sudo reboot now`
 
 ### Taak verifieren 
 
-placeholder
+[Screenshot uitvoer eerste script]()
+
+[Screenshot uitvoer tweede script]()
 
 
 <br></br>
