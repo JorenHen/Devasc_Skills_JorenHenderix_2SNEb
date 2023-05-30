@@ -307,7 +307,12 @@ Moest u wel problemen hebben:
 
 ### Taak troubleshooting
 
-
+Ik heb geen problemen ervaren. Moest u wel problemen ervaren probeer dan:
+- `sudo apt update`
+- `sudo apt upgrade`
+- Visual Studio Code herstarten
+of
+- `sudo reboow now`
 
 ### Taak verifieren 
 
@@ -319,6 +324,7 @@ print("Hello World!");
 }
 ```
 [uitvoer](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%203%20-%20Python%20revieuw%20-%20Development%20tools%20and%20classes/Task%201/LAB3%20Task1%20Screenshots/HelloWorldUitvoer.png)
+
 
 Script 2: [VLAN](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%203%20-%20Python%20revieuw%20-%20Development%20tools%20and%20classes/Task%201/VLAN.py)
 
@@ -336,6 +342,7 @@ else:
 ```
 [uitvoer](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%203%20-%20Python%20revieuw%20-%20Development%20tools%20and%20classes/Task%201/LAB3%20Task1%20Screenshots/VLANuitvoer.png)
 
+
 Script 3: [Persoonlijk](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%203%20-%20Python%20revieuw%20-%20Development%20tools%20and%20classes/Task%201/Persoonlijk.py)
 
 ```
@@ -349,6 +356,7 @@ print("Hallo " + Naam + Achternaam + "! U woont in " + Locatie + " en u bent " +
 ```
 [uitvoer](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%203%20-%20Python%20revieuw%20-%20Development%20tools%20and%20classes/Task%201/LAB3%20Task1%20Screenshots/PersoonlijkUitvoer.png)
 
+
 Script 4: [Router](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%203%20-%20Python%20revieuw%20-%20Development%20tools%20and%20classes/Task%201/Router.py)
 
 ```
@@ -359,6 +367,7 @@ for Device in Routers:
 }
 ```
 [uitvoer](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%203%20-%20Python%20revieuw%20-%20Development%20tools%20and%20classes/Task%201/LAB3%20Task1%20Screenshots/RouterUitvoer.png)
+
 
 Script 5: [TellenTot](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%203%20-%20Python%20revieuw%20-%20Development%20tools%20and%20classes/Task%201/TellenTot.py)
 
@@ -374,6 +383,7 @@ while Beginwaarde <= Eindgetal:
 ```
 [uitvoer](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%203%20-%20Python%20revieuw%20-%20Development%20tools%20and%20classes/Task%201/LAB3%20Task1%20Screenshots/TellenTotUitvoer.png)
 
+
 Script 6: [IPV4 ACL](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%203%20-%20Python%20revieuw%20-%20Development%20tools%20and%20classes/Task%201/IPV4%20ACL.py)
 
 ```
@@ -388,6 +398,7 @@ else:
 }
 ```
 [uitvoer](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%203%20-%20Python%20revieuw%20-%20Development%20tools%20and%20classes/Task%201/LAB3%20Task1%20Screenshots/IPV4ACLuitvoer.png)
+
 
 Script 7: [Bestand](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%203%20-%20Python%20revieuw%20-%20Development%20tools%20and%20classes/Task%201/Bestand.py)
 
