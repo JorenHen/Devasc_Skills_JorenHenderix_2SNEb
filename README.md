@@ -136,6 +136,10 @@ Als Jupyter nogsteeds niet werkt:
 
 ## Part 1: Explore API Documentation Using the API Simulator
 
+- DEVASCVM
+- library.demo.local
+- curl
+
 ### Taak voorbereiding en implementatie
 
 #### API call via de GUI
@@ -194,6 +198,10 @@ API call [DELETE met curl](https://github.com/JorenHen/Devasc_Skills_JH/blob/mas
 
 ## Part 2: Use Postman to Make API Calls to the API Simulator
 
+- DEVASCVM
+- Postman
+- library.demo.local
+
 ### Taak voorbereiding en implementatie
 
 1. DEVASCVM opstarten
@@ -230,6 +238,10 @@ We krijgen de token binnen in de body van de request [verificatie](https://githu
 
 
 ## Part 3: Use Python to Add 100 Books to the API Simulator
+
+- DEVASCVM
+- Visual Studio Code
+- Netacad
 
 ### Taak voorbereiding en implementatie
 
@@ -283,9 +295,15 @@ Moest u wel problemen hebben:
 # Lab 3 - Python Review - Development tools and Classes
 ## Part 1: Python Programming Review
 
+- DEVASCVM
+- Python3
+- Visual Studio Code
+
 ### Taak voorbereiding en implementatie
 
-
+1. DEVASCVM opstarten
+2. Visual Studio Code opstarten
+3. Scriptjes maken in Visual Studio Code
 
 ### Taak troubleshooting
 
@@ -293,7 +311,95 @@ Moest u wel problemen hebben:
 
 ### Taak verifieren 
 
-placeholder
+Script 1: [Hello World]()
+
+```
+{
+print("Hello World!");
+}
+```
+[uitvoer]()
+
+Script 2: [VLAN]()
+
+```
+{
+nativeVLAN = 1;
+dataVLAN = 100;
+
+if nativeVLAN == dataVLAN:
+    print("De native en data VLANs zijn het zelfde.");
+
+else:
+    print("De native en data VLANs zijn verschillend.");
+}
+```
+[uitvoer]()
+
+Script 3: [Persoonlijk]()
+
+```
+{
+Naam = input("Wat is jouw naam? ");
+Achternaam = input("Wat is jouw achternaam? ");
+Locatie = input("Waar woon jij? ");
+Leeftijd = input("Hoe oud ben jij? ");
+print("Hallo " + Naam + Achternaam + "! U woont in " + Locatie + " en u bent " + Leeftijd + " jaar oud");
+}
+```
+[uitvoer]()
+
+Script 4: [Router]()
+
+```
+{
+Routers=["LAB-RA08-Router01", "LAB-RA08-Router02", "LAB-RA08-Router03"];
+for Device in Routers:
+    print(Device);
+}
+```
+[uitvoer]()
+
+Script 5: [TellenTot]()
+
+```
+{
+Eindgetal = input("Geef een nummer tot waar de teller moet lopen: ");
+Eindgetal = int(Eindgetal);
+Beginwaarde = 1
+while Beginwaarde <= Eindgetal:
+    print(Beginwaarde)
+    Beginwaarde = Beginwaarde + 1;
+}
+```
+[uitvoer]()
+
+Script 6: [IPV4 ACL]()
+
+```
+{
+ACLnummer = int(input("Wat is het IPv4 ACL nummer? "));
+if ACLnummer >= 1 and ACLnummer <= 99:
+    print("Dit is een standard IPv4 ACL.");
+elif ACLnummer >=100 and ACLnummer <= 199:
+    print("Dit is een extended IPv4 ACL.");
+else:
+    print("Dis is geen standard of extended IPv4 ACL.");
+}
+```
+[uitvoer]()
+
+Script 7: [Bestand]()
+
+```
+{
+Bestand = open("test.txt","r");
+for item in Bestand:
+    print(item);
+Bestand.close();
+}
+```
+[uitvoer]()
 
 
 <br></br>
