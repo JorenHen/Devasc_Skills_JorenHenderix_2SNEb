@@ -17,7 +17,7 @@
 
 ### Taak troubleshooting
 
-Door het uitvoeren van `udo apt update && sudo apt upgrade` voorkomen we errors bij het installeren van applicaties.
+Door het uitvoeren van `sudo apt update && sudo apt upgrade` voorkomen we errors bij het installeren van applicaties.
 
 ### Taak verifieren 
 
