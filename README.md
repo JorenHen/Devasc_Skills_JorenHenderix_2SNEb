@@ -2,7 +2,7 @@
 
 # LAB 1 - Python experiments
 
-## 1.1 Install different tools/packages on Ubuntu DEVASC-LABVM
+## Part 1: Install different tools/packages on Ubuntu DEVASC-LABVM
 - Python 3.8 and PIP
 - Visual Studio Code
 - Jupyter Notebook
@@ -33,7 +33,7 @@ Door het uitvoeren van `udo apt update && sudo apt upgrade` voorkomen we errors 
 <br></br>
 
 
-## 1.2 Run geopy and timedate Python Scipts on the DEVASC-LABVM using the tools above (1.1)
+## Part 2: Run geopy and timedate Python Scipts on the DEVASC-LABVM using the tools above (1.1)
 
 - timedate.py
 - geopy-geocoders_location.py
@@ -57,7 +57,7 @@ Door het uitvoeren van `udo apt update && sudo apt upgrade` voorkomen we errors 
 <br></br>
 
 
-## 1.3 Install different tools/packages on Windows OS (deep dive exercise) ++
+## Part 3: Install different tools/packages on Windows OS (deep dive exercise) ++
 
 - Python 3.8 and PIP
 - Visual Studio Code
@@ -99,7 +99,7 @@ Als Jupyter nogsteeds niet werkt:
 <br></br>
 
 
-## 1.4 Install different tools/packages on Ubuntu 22.04.01 LTS (deep dive exercise) ++
+## Part 4: Install different tools/packages on Ubuntu 22.04.01 LTS (deep dive exercise) ++
 
 - Python 3.8 and PIP
 - Visual Studio Code
