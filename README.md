@@ -33,7 +33,7 @@ Door het uitvoeren van `udo apt update && sudo apt upgrade` voorkomen we errors 
 <br></br>
 
 
-## Part 2: Run geopy and timedate Python Scipts on the DEVASC-LABVM using the tools above (1.1)
+## Part 2: Run geopy and timedate Python Scipts on the DEVASC-LABVM using the tools above (Part 1)
 
 - timedate.py
 - geopy-geocoders_location.py
