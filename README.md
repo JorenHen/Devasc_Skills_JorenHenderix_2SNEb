@@ -1,5 +1,3 @@
-## ! Disclaimer: allen screenshots en scripts zijn in de READme gezet aan de hand van linken en geen copy paste!
-
 # LAB 1 - Python experiments
 
 ## Part 1: Install different tools/packages on Ubuntu DEVASC-LABVM
