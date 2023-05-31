@@ -855,19 +855,19 @@ Geen problemen gehad tijdens deze taak. Moest u wel problemen hebben probeer dan
 
 ### Taak verifieren 
 
-[XML file]()
+[XML file](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%205%20-%20Software%20development%20and%20design%20content/LAB5%20Task3%20Scripts/XML/myfile.xml)
 
-[XML script]()
+[XML script](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%205%20-%20Software%20development%20and%20design%20content/LAB5%20Task3%20Scripts/XML/parsexml.py)
 
-[JSON file]()
+[JSON file](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%205%20-%20Software%20development%20and%20design%20content/LAB5%20Task3%20Scripts/JSON/myfile.json)
 
-[JSON script]()
+[JSON script](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%205%20-%20Software%20development%20and%20design%20content/LAB5%20Task3%20Scripts/JSON/parsejson.py)
 
-[YAML file]()
+[YAML file](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%205%20-%20Software%20development%20and%20design%20content/LAB5%20Task3%20Scripts/YAML/myfile.yaml)
 
-[YAML script]()
+[YAML script](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%205%20-%20Software%20development%20and%20design%20content/LAB5%20Task3%20Scripts/YAML/parseyaml.py)
 
-[Screenshot uitvoer scripts]()
+[Screenshot uitvoer scripts](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%205%20-%20Software%20development%20and%20design%20content/LAB5%20Task3%20Screenshots/Scripts%20uitvoer.png)
 
 
 <br></br>
