@@ -898,7 +898,7 @@ Ik had geen problemen tijdens deze taak. Moest u wel problemen hebben:
 
 ### Taak verificatie
 
-[Scripts]() getest via DEVASC VM.
+[Scripts](https://github.com/JorenHen/Devasc_Skills_JH/tree/master/Lab%206%20-%20Python%20network%20automation%20with%20netmiko/Taak1) getest via DEVASC VM.
 
 <br></br>
 
@@ -926,7 +926,7 @@ Ik had geen problemen tijdens deze taak. Moest u wel problemen hebben:
 
 ### Taak verificatie
 
-[Scripts]() getest via DEVASC VM.
+[Scripts](https://github.com/JorenHen/Devasc_Skills_JH/tree/master/Lab%206%20-%20Python%20network%20automation%20with%20netmiko/Taak2) getest via DEVASC VM.
 
 
 <br></br>
@@ -955,7 +955,7 @@ Ik had geen problemen tijdens deze taak. Moest u wel problemen hebben:
 
 ### Taak verificatie
 
-[Scripts]() getest via DEVASC VM.
+[Scripts](https://github.com/JorenHen/Devasc_Skills_JH/tree/master/Lab%206%20-%20Python%20network%20automation%20with%20netmiko/Taak3) getest via DEVASC VM.
 
 
 <br></br>
@@ -987,7 +987,7 @@ Moest het script alsnog niet werken voor u probeer dan:
 
 Script uitgevoert en eventuele foutmeldingen gecontrolleerd en opgelost.
 
-[Script]()
+[Script](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%206%20-%20Python%20network%20automation%20with%20netmiko/Taak4/Script.py)
 
 
 <br></br>
