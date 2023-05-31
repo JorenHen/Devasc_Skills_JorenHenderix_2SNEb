@@ -872,3 +872,123 @@ Geen problemen gehad tijdens deze taak. Moest u wel problemen hebben probeer dan
 
 <br></br>
 
+
+# LAB 6 - Python Network automation with netmiko
+
+## Task 1: Connecting to a single iOS device
+
+- Cisco Router en Switch
+- DEVASCVM
+- Visual Studio Code
+
+### Taak voorbereiding en implementatie
+
+- DEVASCVM opstarten
+- Visual Studio Code opstarten
+- Scripts maken
+
+### Taak troubleshooting
+
+Ik had geen problemen tijdens deze taak. Moest u wel problemen hebben:
+
+- Controller je router/switch config
+- Verifieer of je wel connectie hebt naar de router of switch
+- Heb je een RSA key gemaakt op de devices? `crypto key generate rsa` `1028`
+- Staat SSH versie 2 aan? `ip ssh version 2`
+
+### Taak verificatie
+
+[Scripts]() getest via DEVASC VM.
+
+<br></br>
+
+
+## Task 2: Connect to multiple IOS devices
+
+- Cisco Router en Switch
+- DEVASCVM
+- Visual Studio Code
+
+### Taak voorbereiding en implementatie
+
+- DEVASCVM opstarten
+- Visual Studio Code opstarten
+- Scripts maken
+
+### Taak troubleshooting
+
+Ik had geen problemen tijdens deze taak. Moest u wel problemen hebben:
+
+- Controller je router/switch config
+- Verifieer of je wel connectie hebt naar de router of switch
+- Heb je een RSA key gemaakt op de devices? `crypto key generate rsa` `1028`
+- Staat SSH versie 2 aan? `ip ssh version 2`
+
+### Taak verificatie
+
+[Scripts]() getest via DEVASC VM.
+
+
+<br></br>
+
+
+## Task 3: Connect to IOS-XE devices
+
+- CSR1000v VM
+- DEVASCVM
+- Visual Studio Code
+
+### Taak voorbereiding en implementatie
+
+- DEVASCVM opstarten
+- Visual Studio Code opstarten
+- Scripts maken
+
+### Taak troubleshooting
+
+Ik had geen problemen tijdens deze taak. Moest u wel problemen hebben:
+
+- Controller je switch config
+- Verifieer of je wel connectie hebt naar de switch
+- Heb je een RSA key gemaakt op de devices? `crypto key generate rsa` `1028`
+- Staat SSH versie 2 aan? `ip ssh version 2`
+
+### Taak verificatie
+
+[Scripts]() getest via DEVASC VM.
+
+
+<br></br>
+
+
+## Task 4: Create an challenging excited script as a network
+
+- p
+
+### Taak voorbereiding en implementatie
+
+1. Importeer de `requests` en `json` bibliotheken om HTTP-verzoeken te verzenden en JSON-gegevens te verwerken.
+2. Definieer de functie `get_device_interfaces` om de interfaces van het IOS-XE-apparaat op te halen via de RESTCONF-API.
+3. Definieer de functie configure_interface om een specifieke interface van het IOS-XE-apparaat te configureren via de RESTCONF-API.
+4. Voer een voorbeeldgebruik uit waarin eerst de interfaces van het apparaat worden opgehaald en vervolgens een interface wordt geconfigureerd.
+5. Het voorbeeldgebruik gebruikt de opgegeven IP, gebruikersnaam en wachtwoord om verbinding te maken met het IOS-XE-apparaat en de benodigde acties uit te voeren.
+6. Het script bevat foutafhandeling om mogelijke fouten tijdens de HTTP-verzoeken af te vangen en weer te geven.
+
+### Taak troubleshooting
+
+Het script wou eerst niet werken. Hiervoor heb ik de RESTCONF API moeten enabelen.
+
+Moest het script alsnog niet werken voor u probeer dan:
+
+1. De connectiviteit te controlleren: Verifieer of het apparaat toegankelijk is en er geen netwerkproblemen zijn.
+2. De response status te controlleren: Controleer de HTTP-statuscodes om te zien of de verzoeken met succes zijn voltooid.
+
+### Taak verificatie
+
+Script uitgevoert en eventuele foutmeldingen gecontrolleerd en opgelost.
+
+[Script]()
+
+
+<br></br>
+
