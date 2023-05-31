@@ -568,15 +568,15 @@ of
 
 # Lab 4 - Network infrastructure and torubleshooting
 
+## Part 1: Network Infrastructure
+
+### Taak voorbereiding en implementatie
+
 - Console kabel
 - Cisco Switch
 - Cisco Router
 - UTP kabels
 - Voeding kabels
-
-## Part 1: Network Infrastructure
-
-### Taak voorbereiding en implementatie
 
 Router instellen:
 
