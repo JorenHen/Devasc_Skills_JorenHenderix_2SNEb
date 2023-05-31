@@ -781,7 +781,7 @@ git log
 
 ### Taak verifieren 
 
-[Screenshot succesval pushen naar git]()
+[Screenshot succesval pushen naar git](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%205%20-%20Software%20development%20and%20design%20content/LAB5%20Task1%20Screenshots/Git%20push%20succes.png)
 
 
 <br></br>
@@ -808,7 +808,7 @@ git log
 `cd labs/devnet-src/unittest/`
 `more unittest/test_data.py`
 
-- json_search funtie maken in Visual Studio Code [Script1]() [Script2]()
+- json_search funtie maken in Visual Studio Code [Script1](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%205%20-%20Software%20development%20and%20design%20content/recursive_json_search.py) [Script2](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%205%20-%20Software%20development%20and%20design%20content/test_json_search.py)
 
 ### Taak troubleshooten
 
@@ -820,13 +820,13 @@ Problemen met uitvoeren van het script (errors)
 
 ### Taak verifieren 
 
-[Screenshot help commando]()
+[Screenshot help commando](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%205%20-%20Software%20development%20and%20design%20content/LAB5%20Task2%20Screenshots/Unittest%20script%20succes.png)
 
 
-[Screenshot unittest]()
+[Screenshot unittest](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%205%20-%20Software%20development%20and%20design%20content/LAB5%20Task2%20Screenshots/more%20test_data.png)
 
 
-[Screenshot script uitvoer]()
+[Screenshot script uitvoer](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%205%20-%20Software%20development%20and%20design%20content/LAB5%20Task2%20Screenshots/Unittest%20script%20succes.png)
 
 
 <br></br>
@@ -834,19 +834,40 @@ Problemen met uitvoeren van het script (errors)
 
 ## Part 3: Parse Different Data Types with Python Cisco
 
-- Placeholder
+- DEVASCVM
+- Visual Studio Code
 
 ### Taak voorbereiden en implementern 
 
-
+- XML file aanmaken 
+- XML.py file aanmaken
+- JSON file aanmaken
+- JSON.py file aanmaken
+- YAML file maken
+- YAML.py file maken
 
 ### Taak troubleshooten
 
+Geen problemen gehad tijdens deze taak. Moest u wel problemen hebben probeer dan een van de volgende opties:
 
+- `sudo apt update` `sudo apt upgrade`
+- `sudo reboot now`
 
 ### Taak verifieren 
 
+[XML file]()
 
+[XML script]()
+
+[JSON file]()
+
+[JSON script]()
+
+[YAML file]()
+
+[YAML script]()
+
+[Screenshot uitvoer scripts]()
 
 
 <br></br>
