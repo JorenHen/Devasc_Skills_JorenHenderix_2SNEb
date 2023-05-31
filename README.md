@@ -963,7 +963,9 @@ Ik had geen problemen tijdens deze taak. Moest u wel problemen hebben:
 
 ## Task 4: Create an challenging excited script as a network
 
-- p
+- DEVASCVM
+- CSR1000v VM
+- Visual Studio Code
 
 ### Taak voorbereiding en implementatie
 
