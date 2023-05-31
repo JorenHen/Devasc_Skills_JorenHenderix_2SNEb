@@ -657,4 +657,197 @@ TFTP naar de server werkte op de switch en router (na het aanpassen van de tftp 
 <br></br>
 
 
-# Lab 5 - 
+# Lab 5 - Software Development and Design Content
+
+## Part 1 Software Version Control with Git
+
+- DEVASCVM
+- GIT
+- Github account
+
+### Taak voorbereiding en implementatie
+
+1. DevascVM opstarten
+2. Github account aanmaken op de github site
+3. Fine-grained personal access token maken
+
+ - Ga naar `Account Settings` op je github
+ - `Developer settings`
+ - `Personal Acces token` > `Fine grained personal acces code`
+ - Alle rechten toekennen op de token zodat we niet in problemen komen met pushen naar github wegens "read only rechten"
+
+
+#### GIT repository initialiseren 
+
+```
+{
+git config --global user.name "JorenHen"
+git config --global user.email joren.henderix@student.pxl.be
+git config --list
+mkdir Devask_Skills
+cd Devask_Skills/
+git init
+git pull
+}
+```
+
+#### Bestanden naar github pushen via GIT
+
+```
+{
+git remote add origin https://github.com/JorenHen/Devasc_Skills_JH.git
+git pull
+git add .
+git commit -m "Screenshots en scripts toegevoegd"
+git push -u origin master
+}
+```
+
+- GIT gebruikersnaam en Fine-grained personal access token invullen 
+- Gewenste bestanden zoals screenshots en scripts toevoegen aan de "Devask_Skills/" directory
+
+#### Bestanden wijzigen via GIT
+
+```
+{
+cd Devask_Skills/
+vim readme.txt
+git status
+git add readme.txt
+git commit -m "Readme file aangepast"
+git log
+git diff b510f8e 9f5c4c5
+}
+```
+
+#### Nieuwe branch aanmaken en samenvoegen
+
+```
+{
+git branch test
+git branch
+git checkout feature
+git branch
+git add test.txt
+git status
+git commit -m "Nieuw bestand toegevoegd aan test branch"
+git log
+git checkout master
+git branch
+git merge test
+}
+```
+
+#### Nieuwe branch verwijderen
+
+```
+{
+git branch -d test
+git branch
+}
+```
+
+#### Conflicten tijdens het samenvoegen van branches
+
+```
+{
+git branch test2
+git checkout test2
+git branch
+cat test.txt
+sed -i 's/Test/Succes/'
+cat test.txt
+git commit -a -m "Test veranderd naar Succes voor test2 branch"
+git checkout master
+git branch
+sed -i 's/Test/Succes/' test.txt
+cat test.txt
+git commit -a -m "Test veranderd naar Failed voor master branch"
+git merge test2
+git log
+cat test.txt
+vim test.txt
+cat test.txt
+git add test.txt
+git commit -a -m "Manueel test2 branch samengevoegd"
+git log
+}
+```
+
+### Taak troubleshooten
+
+- Aanmaken van Fine-grained personal access token
+- Rechten aanpassen van de peronal acces token wegens Read only problemen tijdens het pushen naar Github
+
+### Taak verifieren 
+
+[Screenshot succesval pushen naar git]()
+
+
+<br></br>
+
+
+## Part 2: Create a Python Unit Test 3.5.7
+
+- DEVASCVM
+- Visual Studio Code
+
+### Taak voorbereiden en implementern 
+
+1. DevascVM osptarten
+2. Visual Studio Code openen
+
+#### Unittest omgeving leren kennen
+
+- Help commando voor unittest:
+
+`python3 -m unittest -h`
+
+- Python functie testen met unittest
+
+`cd labs/devnet-src/unittest/`
+`more unittest/test_data.py`
+
+- json_search funtie maken in Visual Studio Code [Script1]() [Script2]()
+
+### Taak troubleshooten
+
+Problemen met uitvoeren van het script (errors)
+
+- Open het script in de unittest directory. Ik had een nieuwe directory gemaakt binnenin mijn Devask_Skills/ map hierdoor werkte het niet.
+- `Sudo apt update`
+- `Sudo apt upgrade`
+
+### Taak verifieren 
+
+[Screenshot help commando]()
+
+
+[Screenshot unittest]()
+
+
+[Screenshot script uitvoer]()
+
+
+<br></br>
+
+
+## Part 3: Parse Different Data Types with Python Cisco
+
+- Placeholder
+
+### Taak voorbereiden en implementern 
+
+
+
+### Taak troubleshooten
+
+
+
+### Taak verifieren 
+
+
+
+
+<br></br>
+
