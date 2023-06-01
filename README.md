@@ -108,7 +108,7 @@ Als Jupyter nogsteeds niet werkt:
 
 - Installeer Ubuntu 22.04.1 ISO via: https://old-releases.ubuntu.com/releases/22.04.1/
 - Installeer de VM
-- 
+
 1. Update en upgrade apt om errors te voorkomen `sudo apt update` `sudo apt upgrade`
 2. installeer Snap voor visual studio code `sudo apt install snapd` 
 - Installeer Visiual Studio Code `Sudo snap install --classic code`
