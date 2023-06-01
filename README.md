@@ -1074,9 +1074,9 @@ Ik had geen problemen tijdens deze taak. Moest u wel problemen hebben:
 {
 cisco1 = { 
     "device_type": "cisco_ios",
-    "host": "172.16.8.",
-    "username": "admin",
-    "password": "Administrator123."
+    "host": "192.168.253.128",
+    "username": "cisco",
+    "password": "cisco123!"
 }
 }
 ```
