@@ -111,10 +111,10 @@ Als Jupyter nogsteeds niet werkt:
 
 1. Update en upgrade apt om errors te voorkomen `sudo apt update` `sudo apt upgrade`
 2. installeer Snap voor visual studio code `sudo apt install snapd` 
-- Installeer Visiual Studio Code `Sudo snap install --classic code`
-3. installeer Python en pip `sudo apt intall python3` `sudo apt install python3-pip`
-4. Installeer jupyter `sudo apt install jupyter`
-5. installeer IDLE `sudo apt install idle`
+3. Installeer Visiual Studio Code `Sudo snap install --classic code`
+4. installeer Python en pip `sudo apt intall python3` `sudo apt install python3-pip`
+5. Installeer jupyter `sudo apt install jupyter`
+6. installeer IDLE `sudo apt install idle`
 
 ### Taak troubleshooting
 
@@ -152,6 +152,7 @@ Als Jupyter nogsteeds niet werkt:
 #### API call via curl en API key
 
 - API call met curl doen we aan de hand van dit commando: 
+
 `curl -X get "http://library.demo.local/api/v1/books?includeISBN=true" -H accept: application/json`
 
 #### POST call voor API key
@@ -221,7 +222,7 @@ Ik had geen problemen tijdens deze taak.
 Moest u wel problemen hebben:
 
 - Herstart Postman 
-- Herstart DEVASC Machine
+- Herstart DEVASC Machine `sudo reboot now`
 
 ### Taak verifieren 
 
@@ -268,7 +269,7 @@ Het script is opgedeeld in verschillende delen op Devasc
 }
 ```
 
-Alle delen van het script zijn samengevoegd in het [script](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%202%20-%20Explore%20rest%20APIs%20with%20API-simulator%20and%20postman/Task%203/Add100RandomBooks.py)
+Alle delen van het script (te vinden op netacad) zijn samengevoegd in het [script](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%202%20-%20Explore%20rest%20APIs%20with%20API-simulator%20and%20postman/Task%203/Add100RandomBooks.py)
 
 ### Taak troubleshooting
 
@@ -992,3 +993,137 @@ Script uitgevoert en eventuele foutmeldingen gecontrolleerd en opgelost.
 
 <br></br>
 
+
+# LAB 7 – YANG, NETCONFIG and RESTCONFIG
+
+## Part 1: Install the CSR1000v VM
+
+- DEVASCVM
+- CSR1000v ISO
+- VMWARE Workstation
+
+### Taak voorbereiding en implementatie
+
+1. VM Downloaden van leerkracht zijn one drive
+2. VM Opstarten
+3. Wachten tot de VM vraagt voor de ISO te installeren
+4. VM afsluiten
+5. DVD drive drive 1 uitwerpen
+6. ISO in DVD drive 1 steken
+7. VM opstarten
+8. Wachten tot installatie process gedaan is
+
+### Taak Troubleshooting
+
+VM wou niet installeren en gaf een foutmelding:
+
+- ISO bestand is nodig om de VM volledig te kunnen installeren. Deze was eerst niet meegegeven
+
+- Tijdens het installatie process op niets drukken. Als de VM een keuze tussen 2 opties geeft gewoon wachten tot hij uit zichzelf verder gaat.
+
+### Taak verifieren
+
+[VM is geinstalleerd]()
+
+[GUI van de VM werkt]()
+
+
+<br></br>
+
+
+## Part 2: Explore YANG Models
+
+- DEVASCVM
+- CSR100v VM
+- YANG
+
+### Taak voorbereiding en implementatie
+
+1. DEVASCVM opstarten
+2. Nieuwe directory aanmaken `mkdir pyang`
+3. YANG installeren `wget https://raw.githubusercontent.com/YangModels/yang/main/vendor/cisco/xe/1693/ietf-interfaces.yang`
+
+### Taak Troubleshooting
+
+Geen problemen gehad tijdens deze taak. Moest u wel problemen hebben probeer dan een van de volgende opties:
+
+- `sudo apt update` `sudo apt upgrade`
+- `sudo reboot now`
+
+### Taak verifieren
+
+[pyang installatie]()
+
+`pyang -v`
+
+[pyang version]()
+
+
+<br></br>
+
+
+## Part 3: Use NETCONF to Access an IOS XE Device
+
+- DEVASCVM
+- CSR1000v VM
+- Visual Studio Code
+
+### Taak voorbereiding en implementatie
+
+1. DEVASCVM opstarten
+2. CSR1000v VM opstarten
+3. SSH connctie maken naar CSR1000v VM via DEVASCVM `ssh cisco@192.168.253.128`
+4. `exit`
+5. Open NETCONFIG via SSH naar de CSR1000v VM `ssh cisco@192.168.253.128 -p 830 -s netconf`
+6. XML code doorsturen naar de switch via de SSH code
+7. Script maken om een connectie te maken via ncclient
+
+### Taak Troubleshooting
+
+Als NETCONFIG niet runt op de CSR1000v `config t` `netconf-yang`
+
+### Taak verifieren
+
+[Uitvoeren van XML code via een SSH sessie]()
+
+[Directory aanmaken voor het script]()
+
+[Script]()
+
+[Script uitvoer]()
+
+
+
+
+<br></br>
+
+
+## Part 4: Use RESTCONF to Access an IOS XE Device
+
+- DEVASCVM
+- CSR1000v VM
+- Vsual Studio Code
+
+### Taak voorbereiding en implementatie
+
+1. DEVASCVM aanzetten
+2. CSR1000v VM opstarten
+3. RESTCONF aanzetten op switch `conf t` `restconf`
+4. `ip http secure-server`
+5. `ip http authentication local`
+6. Script maken en uitvoeren
+
+### Taak Troubleshooting
+
+Geen problemen gehad tijdens deze taak. Moest u wel problemen hebben probeer dan een van de volgende opties:
+
+- `sudo apt update` `sudo apt upgrade`
+- `sudo reboot now`
+
+### Taak verifieren
+
+[Restconf aanzetten]()
+
+[http aanzetten]()
+
+[Script]()
