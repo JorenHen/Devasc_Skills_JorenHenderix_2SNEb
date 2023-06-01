@@ -81,7 +81,7 @@ En daarna Jupyter opnieuw proberen te installeren
 
 Als Jupyter nogsteeds niet werkt:
 
--Open Jupyter Notebook met dit commando: `python -m notebook`
+- Open Jupyter Notebook met dit commando: `python -m notebook`
 
 ### Taak verifieren
 
