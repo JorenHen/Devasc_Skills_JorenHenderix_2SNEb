@@ -607,6 +607,13 @@ IP plan
 | LAB-RACK08-SW03 | VLAN10    |  10  | 172.16.8.5    | 
 | LAB-RACK08-SW03 | VLAN40    |  40  | 172.16.8.5    | 
 
+connectie maken naar tftp:
+
+- configs aanpassen:
+1. Statishe route naar tftp server
+2. Uitgaande poort moet ip bereikbaar zijn
+3. `copy tftp: running-config` `10.199.64.134` `lab-ra08-DEVICE-confg`
+
 ### Taak troubleshooten
 
 - Tftp uitgaande poort aanpassen op de router `ip tftp source-interface GigabitEthernet 0/0.10`
@@ -897,6 +904,53 @@ Ik had geen problemen tijdens deze taak. Moest u wel problemen hebben:
 
 ### Taak verificatie
 
+- Basis van elk script:
+
+```
+{
+cisco1 = { 
+    "device_type": "cisco_ios",
+    "host": "172.16.8.",
+    "username": "admin",
+    "password": "Administrator123."
+}
+}
+```
+
+NOTE: Als je deze script zelf wilt uitvoeren vergeet dan niet de host, username en password waardes aan te passen naar de juiste waardes voor jouw device
+
+- Show commandos uitvoeren
+
+```
+{
+command = "show ip int brief"
+
+with ConnectHandler(**cisco1) as net_connect:
+    output = net_connect.send_command(command)
+
+print(output)
+}
+```
+
+NOTE: De waarde van de variabele "command" dient aangepast te worden naar het gewenste show commando
+
+- Config commandos uitvoeren
+
+```
+{
+connection = ConnectHandler(**cisco1)
+connection.enable()
+
+commands = ['vlan 100', 'name TEST', 'exit']
+connection.send_config_set(commands)
+
+print('Uitgevoerd')
+connection.disconnect()
+}
+```
+
+NOTE: De waarde van de variabele "command" dient aangepast te worden naar het gewenste configuratie commando
+
 [Scripts](https://github.com/JorenHen/Devasc_Skills_JH/tree/master/Lab%206%20-%20Python%20network%20automation%20with%20netmiko/Taak1) getest via DEVASC VM.
 
 <br></br>
@@ -924,6 +978,66 @@ Ik had geen problemen tijdens deze taak. Moest u wel problemen hebben:
 - Staat SSH versie 2 aan? `ip ssh version 2`
 
 ### Taak verificatie
+
+- Basis van elk script:
+
+```
+{
+devices = [
+{ 
+    "device_type": "cisco_ios",
+    "host": "172.16.8.5",
+    "username": "admin",
+    "password": "Administrator123."
+}
+{ 
+    "device_type": "cisco_ios",
+    "host": "172.16.8.4",
+    "username": "admin",
+    "password": "Administrator123."
+}
+]
+}
+```
+
+NOTE: Als je deze script zelf wilt uitvoeren vergeet dan niet de host, username en password waardes aan te passen naar de juiste waardes voor jouw device
+
+- Show commandos uitvoeren
+
+```
+{
+command = ["show ip int brief","show ip ospf"]
+for device in devices:
+    net_connect = ConnectHandler(**device)
+    for command in commands:
+        output = net_connect.send_command(command)
+        print(output)
+
+    net_connect.disconnect()
+}
+```
+
+NOTE: De waarde van de variabele "command" dient aangepast te worden naar het gewenste show commando
+
+- Config commandos uitvoeren
+
+```
+{
+commands = ['vlan 100', 'name TEST']
+
+for device in devices:
+    connection = ConnectHandler(**device)
+    connection.enable()
+
+    output = connection.send_config_set(commands)
+    print(output)
+    print('uitgevoerd')
+
+    connection.disconnect()
+}
+```
+
+NOTE: De waarde van de variabele "command" dient aangepast te worden naar het gewenste configuratie commando
 
 [Scripts](https://github.com/JorenHen/Devasc_Skills_JH/tree/master/Lab%206%20-%20Python%20network%20automation%20with%20netmiko/Taak2) getest via DEVASC VM.
 
@@ -953,6 +1067,53 @@ Ik had geen problemen tijdens deze taak. Moest u wel problemen hebben:
 - Staat SSH versie 2 aan? `ip ssh version 2`
 
 ### Taak verificatie
+
+- Basis van elk script:
+
+```
+{
+cisco1 = { 
+    "device_type": "cisco_ios",
+    "host": "172.16.8.",
+    "username": "admin",
+    "password": "Administrator123."
+}
+}
+```
+
+NOTE: Als je deze script zelf wilt uitvoeren vergeet dan niet de host, username en password waardes aan te passen naar de juiste waardes voor jouw device
+
+- Show commandos uitvoeren
+
+```
+{
+command = "show ip int brief"
+
+with ConnectHandler(**cisco1) as net_connect:
+    output = net_connect.send_command(command)
+
+print(output)
+}
+```
+
+NOTE: De waarde van de variabele "command" dient aangepast te worden naar het gewenste show commando
+
+- Config commandos uitvoeren
+
+```
+{
+connection = ConnectHandler(**cisco1)
+connection.enable()
+
+commands = ['vlan 100', 'name TEST', 'exit']
+connection.send_config_set(commands)
+
+print('Uitgevoerd')
+connection.disconnect()
+}
+```
+
+NOTE: De waarde van de variabele "command" dient aangepast te worden naar het gewenste configuratie commando
 
 [Scripts](https://github.com/JorenHen/Devasc_Skills_JH/tree/master/Lab%206%20-%20Python%20network%20automation%20with%20netmiko/Taak3) getest via DEVASC VM.
 
