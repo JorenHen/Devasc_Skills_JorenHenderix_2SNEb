@@ -1023,9 +1023,9 @@ VM wou niet installeren en gaf een foutmelding:
 
 ### Taak verifieren
 
-[VM is geinstalleerd]()
+[VM is geinstalleerd](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%207%20-%20NETCONFIG%20and%20YANG/VM%20Installatie%20success.png)
 
-[GUI van de VM werkt]()
+[GUI van de VM werkt](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%207%20-%20NETCONFIG%20and%20YANG/GUI.png)
 
 
 <br></br>
@@ -1052,11 +1052,11 @@ Geen problemen gehad tijdens deze taak. Moest u wel problemen hebben probeer dan
 
 ### Taak verifieren
 
-[pyang installatie]()
+[pyang installatie](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%207%20-%20NETCONFIG%20and%20YANG/pyang%20install.png)
 
 `pyang -v`
 
-[pyang version]()
+[pyang version](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%207%20-%20NETCONFIG%20and%20YANG/pyang%20version.png)
 
 
 <br></br>
@@ -1084,13 +1084,13 @@ Als NETCONFIG niet runt op de CSR1000v `config t` `netconf-yang`
 
 ### Taak verifieren
 
-[Uitvoeren van XML code via een SSH sessie]()
+[Uitvoeren van XML code via een SSH sessie](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%207%20-%20NETCONFIG%20and%20YANG/XML%20code%20.png)
 
-[Directory aanmaken voor het script]()
+[Directory aanmaken voor het script](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%207%20-%20NETCONFIG%20and%20YANG/Directory%20voor%20het%20script.png)
 
-[Script]()
+[Script](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%207%20-%20NETCONFIG%20and%20YANG/ncclient-netconf.py)
 
-[Script uitvoer]()
+[Script uitvoer](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%207%20-%20NETCONFIG%20and%20YANG/Script%20uitvoer.png)
 
 
 
@@ -1122,8 +1122,8 @@ Geen problemen gehad tijdens deze taak. Moest u wel problemen hebben probeer dan
 
 ### Taak verifieren
 
-[Restconf aanzetten]()
+[Restconf aanzetten](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%207%20-%20NETCONFIG%20and%20YANG/RESTCONF%20aanzetten.png)
 
-[http aanzetten]()
+[http aanzetten](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%207%20-%20NETCONFIG%20and%20YANG/http%20enable.png)
 
-[Script]()
+[Script](https://github.com/JorenHen/Devasc_Skills_JH/blob/master/Lab%207%20-%20NETCONFIG%20and%20YANG/postmanscript.py)
